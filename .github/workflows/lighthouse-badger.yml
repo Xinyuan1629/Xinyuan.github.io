@@ -29,6 +29,9 @@ on:
   # THAT'S IT; YOU'RE DONE;
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 ########################################################################
 # THAT'S IT; YOU DON'T HAVE TO DEFINE ANYTHING IN THE FOLLOWING
 ########################################################################
